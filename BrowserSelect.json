@@ -11,6 +11,7 @@
             "/D=$dir"
         ]
     },
+    "bin": "BrowserSelect.exe",
     "uninstaller": {
         "file": "Uninstall.exe",
         "args": [
