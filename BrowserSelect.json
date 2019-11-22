@@ -5,7 +5,11 @@
     "license": "GPL-2.0-only",
     "url": "https://github.com/zumoshi/BrowserSelect/releases/download/1.4.0/BrowserSelect.exe",
     "hash": "6edfc0bcc5375308aa740cc7d2d345747d0b1cb7f07485847307bb6556a4d3aa",
-    "installer": {},
+    "installer": {
+        "args": [
+            "/S"
+        ]
+    },
     "checkver": {
         "url": "https://github.com/zumoshi/BrowserSelect/releases",
         "regex": "(\\d+\\.\\d+\\.\\d+)"
