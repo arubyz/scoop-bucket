@@ -1,9 +1,10 @@
 {
+    "##": "QOwnNotes is a plain-text file notepad and todo-list manager with markdown support and ownCloud / Nextcloud integration.",
     "homepage": "https://www.qownnotes.org/",
-    "version": "4915",
+    "version": "4927",
     "license": "GPL-2.0-only",
-    "url": "https://github.com/pbek/QOwnNotes/releases/download/windows-b4915/QOwnNotes.zip",
-    "hash": "e571c34a68112ff8dbbd3a52331c3cb5d664b34076f4ab5818c02e11394cecb1",
+    "url": "https://github.com/pbek/QOwnNotes/releases/download/windows-b4927/QOwnNotes.zip",
+    "hash": "f6b2d83fc78dfa8ab7fd839b626b8481c1e5656cbf0f0b4a899b206e1c505f72",
     "bin": "QOwnNotes.exe",
     "shortcuts": [
         [
