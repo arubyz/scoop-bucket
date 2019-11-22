@@ -20,7 +20,7 @@
     },
     "checkver": {
         "url": "https://github.com/zumoshi/BrowserSelect/releases",
-        "regex": "(\\d+\\.\\d+\\.\\d+)"
+        "regex": "/zumoshi/BrowserSelect/releases/download/(\\d+\\.\\d+\\.\\d+)/BrowserSelect.exe"
     },
     "autoupdate": {
         "url": "https://github.com/zumoshi/BrowserSelect/releases/download/$version/BrowserSelect.exe/#BrowserSelectInstaller.exe"
