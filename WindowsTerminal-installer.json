@@ -1,0 +1,33 @@
+{
+    "homepage": "https://github.com/microsoft/terminal",
+    "description": "The new Windows Terminal, and the original Windows console host -- all in the same place!",
+    "version": "0.6.2951.0",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/microsoft/terminal/blob/master/LICENSE"
+    },
+    "url": "https://github.com/microsoft/terminal/releases/download/v0.6.2951.0/Microsoft.WindowsTerminal_0.6.2951.0_8wekyb3d8bbwe.msixbundle#/windowsterminal.msixbundle",
+    "hash": "1e55cd46043ad5613242aae3bceb528b81a181a8b388015ebe7767000102d06a",
+    "installer": {
+        "script": [
+            "if ([Environment]::OSVersion.Version.Major -ne \"10\") {",
+            "    throw \"Windows Terminal requires Windows 10 to work.\"",
+            "}",
+            "if ([Environment]::OSVersion.Version.Build -lt \"18362\") {",
+            "    throw \"Windows Terminal requires at least Windows 10 version 1903 (build 18362) to work.\"",
+            "}",
+            "Add-AppxPackage -Path \"$dir\\windowsterminal.msixbundle\"",
+            "Remove-Item \"$dir\\windowsterminal.msixbundle\""
+        ]
+    },
+    "uninstaller": {
+        "script": "Get-AppxPackage -Name Microsoft.WindowsTerminal | Remove-AppxPackage"
+    },
+    "checkver": {
+        "url": "https://github.com/microsoft/terminal/releases",
+        "regex": "WindowsTerminal_([\\d.]+)_(?<hash>[\\w]+)\\.msix"
+    },
+    "autoupdate": {
+        "url": "https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminal_$version_$matchHash.msixbundle#/windowsterminal.msixbundle"
+    }
+}
