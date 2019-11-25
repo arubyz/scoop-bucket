@@ -1,0 +1,19 @@
+{
+    "homepage": "https://www.nurgo-software.com/products/tidytabs",
+    "description": "The best tabbed window manager for Windows",
+    "license": "Commercial",
+    "version": "1.14.0",
+    "url": "https://www.nurgo-software.com/download/TidyTabs.msi",
+    "hash": "8C0F27DB8040461FE04FD727A903685859FA7B78FE59700699ADED39715DC5E3",
+    "msi": {
+        "code": "{49F8DF27-46A0-4BE5-8444-DAB752ED6986}",
+        "silent": true
+    },
+    "checkver": {
+        "url": "https://www.nurgo-software.com/company/news/20-tidytabs",
+        "regex": "TidyTabs v(\\d+\\.\\d+\\.\\d+)"
+    },
+    "autoupdate": {
+        "url": "https://www.nurgo-software.com/download/TidyTabs.msi"
+    }
+}
