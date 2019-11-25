@@ -5,6 +5,10 @@
     "version": "1.15.0",
     "url": "https://www.nurgo-software.com/download/AquaSnap.msi",
     "hash": "5A3E686C6FECFB30D6657572CA1C09CC32F1EC7B81BE2A3CD34FC0E4396CACFC",
+    "msi": {
+        "code": "{72721A82-16E8-4665-8F49-EF08B970817F}",
+        "silent": true
+    },
     "checkver": {
         "url": "https://www.nurgo-software.com/company/news/13-aquasnap",
         "regex": "AquaSnap v(\\d+\\.\\d+\\.\\d+)"
