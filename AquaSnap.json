@@ -2,9 +2,9 @@
     "homepage": "https://www.nurgo-software.com/products/aquasnap",
     "description": "The best tiling window manager for Windows",
     "license": "Commercial",
-    "version": "1.15.0",
+    "version": "1.23.8",
     "url": "https://www.nurgo-software.com/download/AquaSnap.msi",
-    "hash": "5A3E686C6FECFB30D6657572CA1C09CC32F1EC7B81BE2A3CD34FC0E4396CACFC",
+    "hash": "5a3e686c6fecfb30d6657572ca1c09cc32f1ec7b81be2a3cd34fc0e4396cacfc",
     "msi": {
         "code": "{72721A82-16E8-4665-8F49-EF08B970817F}",
         "silent": true
